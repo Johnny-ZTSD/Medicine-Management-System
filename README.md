@@ -5,8 +5,11 @@
 #####Reqiurement Document:
 需求文档：见"需求文档/*"
 
+#####Demo：
+项目展示：见"Medicine Management System.pptx"
+
 #####Project Detail：
 项目详情：见"Medicine MS-综合设计.doc"
 
 #####DB Design：
-数据库设计：见"SQL/MedicineMS-SQL Designer File.sql"文件
+数据库设计：见"SQL/MedicineMS-SQL Designer File.sql"
