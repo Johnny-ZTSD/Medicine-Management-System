@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/MedicineMS/admin/index.jsp=UTF-8
+encoding//WebContent/MedicineMS/medicine/MInfo/GSP/search_GSP.jsp=UTF-8
+encoding//WebContent/MedicineMS/medicine/MInfo/Info/search_medicineInfo.jsp=UTF-8
+encoding//WebContent/MedicineMS/medicine/MInfo/Info/update_medicineInfo.jsp=UTF-8
+encoding//WebContent/MedicineMS/sell/MSaleRecord/add/Result_addMedicineSaleRecord.jsp=UTF-8
+encoding//WebContent/MedicineMS/sell/MSaleRecord/add/add_MSaleRecord.jsp=UTF-8
+encoding//WebContent/MedicineMS/sell/MSaleRecord/testMenu.jsp=UTF-8
+encoding//WebContent/MedicineMS/user/customer/index_CUSTadmin.jsp=UTF-8
+encoding//WebContent/MedicineMS/user/staff/index_STAFadmin.jsp=UTF-8
+encoding//WebContent/MedicineMS/user/staff/update/update_staff.jsp=UTF-8

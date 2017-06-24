@@ -1,0 +1,271 @@
+    * {
+        font-family: Arial, Helvetica, "iconfont";
+        /*word-break: break-all;*/
+    }
+    /**
+ * Footer Styles
+ */
+    
+    .footer {
+        position: fixed;
+        /*_position: static;*/
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        clear: both;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 48px;
+        text-align: center;
+        color: #b6b6b6;
+        background-color: #eff4fa;
+        border-top: 1px solid #d6dfea;
+    }
+    
+    .header {
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        /*left: 0;*/
+        right: 0;
+        top: 0;
+        height: 48px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /*line-height: 62px;*/
+        overflow: hidden;
+        border-bottom: 1px solid #d6dfea;
+        background: #eff4fa;
+    }
+    
+    .clear-input-text {
+        outline: none;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        text-indent: 1em;
+    }
+    .clear-input-all{
+        outline: none;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        text-indent: 1em;
+        background-color: white;
+    }
+    /*reset input-placeholder's style */
+    /*study in :http://www.webhek.com/post/html5-placeholder-css.html*/
+    
+    ::-webkit-input-placeholder {
+        color: #aaaaaa;
+        /*#888;*/
+        /*#b1b1b1;*/
+        font-size: 1.2em;
+    }
+    
+    ::-moz-placeholder {
+        color: #aaaaaa;
+        /*#888;*/
+        /*#b1b1b1;*/
+        font-size: 1.5em;
+    }
+    /* firefox 19+ */
+    
+    :-ms-input-placeholder {
+        color: #aaaaaa;
+        /*#888;*/
+        /*#b1b1b1;*/
+        font-size: 1.5em;
+    }
+    /* ie */
+    
+    input:-moz-placeholder {
+        color: #aaaaaa;
+        /*   */
+        /*#b1b1b1;*/
+        font-size: 1.5em;
+    }
+    
+    .normal-input-text {
+        font-size: 1.2em;
+        color: #222;
+        /*rgba(148, 204, 36, 1);*/
+    }
+    /*.normal-input-text:focus{
+        outline: #e6e6e6 solid;
+        outline-width:.1em;
+    }*/
+    
+    .login-container-1 {
+        /*固定盒子大小*/
+        /*box-sizing: content-box;*/
+        /*居中*/
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        /*other*/
+        background-color: #f7f6f2;
+        padding: 3em;
+        background-color: white;
+        box-shadow: 0 0 4px gray;
+    }
+    
+    .login-container {
+        border: 1px solid #aaaaaa;
+        border-radius: 2px;
+    }
+    
+    .flex-col-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background-color: yellow;*/
+        /*overflow: hidden;*/
+    }
+    
+    .flex-row-center {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*background-color: yellow;*/
+        /*overflow: hidden;*/
+    }
+    
+    .login-form-up-item {
+        height: 56px;
+        width: 100%;
+        line-height: 56px;
+        /*margin:1px;*/
+        /*other*/
+        text-align: center;
+        /*background-color: green;*/
+    }
+    
+    .login-form-down-item {
+        height: 42px;
+        /*margin:1px;*/
+        box-sizing: border-box;
+        /*background-color: silver;*/
+    }
+    
+    .input-outer-container {
+        /*background-color: purple;*/
+        /*border: 3px solid gray;*/
+        padding-right: 0;
+        margin-bottom: 20px
+    }
+    
+    .input-inner-container {
+        /*background-color: purple;*/
+        width: 100%;
+        padding-right: 0;
+        border: 1.1px solid #888/*#ccc;*/
+    }
+    
+    .input-inner-container:hover {
+        /*border: 2px solid #aaa;*/
+        /*#94cc24 148 204 36 1*/
+        border: 1.2px solid #5a98de;
+        /*#111; */
+        /*rgba(148, 204, 36, 1)*/
+    }
+    
+    .login-submit-btn {
+        width: 100%;
+        background-color: #5a98de;
+        /*#444;*/
+        /* rgba(148, 204, 36, 0.1)*/
+    }
+    
+    .login-submit-btn:hover {
+        width: 100%;
+        background-color: #034794;
+        /*#111;*/
+        /* rgba(148, 204, 36, 1)*/
+    }
+    /*标题信息*/
+    
+    .title-info {
+        font-size: 2.4em;
+        color: #5a98de;
+        /*#666;*/
+        /*#8fca1a*/
+        text-align: left;
+    }
+    
+    .top-tips {
+        text-align: left;
+    }
+    
+    .top-tips-link {
+        font-size: 1.1em;
+        color: #a09e9f
+    }
+    
+    .submit-container {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #8fca1a
+    }
+    
+    .submit-container>input {
+        color: white
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .login-header-title-cont {
+        line-height: 48px;
+        height: 48px;
+        line-height: 48px;
+        vertical-align: middle;
+        color: #0571c1;
+        font-weight: bolder;
+        font-size: 1.2em
+    }
+    
+    .login-header-title-cont a{
+        color: #0571c1
+    }
+    
+    .login-header-img {
+        height: 100%;
+        margin-left: 30px
+    }
+    
+    .login-header-img-cont {
+        height: 100%;
+        padding: 15px;
+    }
+    
+    .login-content-container {
+        height: 100%;
+        width: 100%;
+        ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .login-content-img-container {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    
+    .login-content-img {
+        height: 100%;
+        width: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+    
+    .login-form-container {
+        background-color: white;
+        padding: 50px 20px 50px 20px;
+        box-sizing: border-box;
+    }

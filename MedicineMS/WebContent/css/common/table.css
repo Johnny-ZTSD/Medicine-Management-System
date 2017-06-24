@@ -1,0 +1,11 @@
+.table-nowrap td{
+	white-space: nowrap !important;
+	text-align:center 
+} 
+.table-nowrap th{
+	white-space: nowrap !important;
+	text-align:center 
+} 
+.table-vertical-middle td{
+	vertical-align: middle !important;
+}

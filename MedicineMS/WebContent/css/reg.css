@@ -1,0 +1,90 @@
+/*
+	Date:2017-6-18;
+	Author:Johnny Zen;
+	Description:part of register style,and the other part style lie in login.css;
+*/
+
+.reg_content_outer_container {
+    height: 100%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.reg_content_inner_container {
+    height: 100%;
+    padding: 50px
+}
+
+.reg_content_inner_outer_container {
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.reg_content_left_outer_container {
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.reg_content_left_inner_container {
+    height: 100%;
+    display: flex;
+    ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vertical_line {
+    height: 100%;
+    background: #d9d9d9;
+    width: 2px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.reg_content_right_outer_container {
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.reg_content_right_inner_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.reg_content_right_title_cont {
+    margin: 10px 0px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: left;
+    color: #333333
+}
+
+.margin_10_0 {
+    margin: 10px 0px
+}
+
+.padding_5 {
+    padding: 5px;
+}
+
+.reg_hint{
+	font-size: .8em;
+	font-weight: normal;
+	color:  rgba(0,0,0,.2);
+}
+.reg_sendEmail_btn {
+    color: white;
+    background-color: #85c926;
+    padding: 10px;
+    text-align: center;
+	font-weight: normal;
+    font-size: .8em;
+    text-indent: -.01em
+}

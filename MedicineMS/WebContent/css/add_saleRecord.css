@@ -1,0 +1,20 @@
+    .treeview-menu>li>a {
+        text-indent: 2em;
+    }
+    
+    input:focus::placeholder {
+        /*聚焦输入文本框时*/
+        color: red;
+    }
+    
+    input:focus {
+        font-weight: bolder;
+    }
+    /*聚焦输入文本框时*/
+    /* input:focus{ 
+    	color: red;
+    }*/
+    /*
+    .mybtncss:hover{
+        display: none;
+    }*/

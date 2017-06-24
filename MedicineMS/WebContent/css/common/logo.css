@@ -1,0 +1,72 @@
+/*
+    Date:2017-6-18 13:40;
+    Author:Johnny Zen;
+    Description:this is all style about some companies' logos;
+    import file:../fonts-img;
+*/
+
+
+/*public style*/
+
+.login_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    /*line-height: 36px;*/
+    /*vertical-align: middle;*/
+}
+
+.wechat_login_logo {
+    background: url(../fonts-img/wechat.png) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    /*background-position: -196px -210px;*/
+    -webkit-background-size: 20px 20px;
+}
+
+.wechat_color {
+    background-color: #51b342
+}
+
+.qq_login_logo {
+    background: url(../fonts-img/qq.png) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    /*background-position: -196px -210px;*/
+    -webkit-background-size: 20px 20px;
+}
+
+.qq_color {
+    background-color: #d82520;
+}
+
+.db_login_logo {
+    background: url(../fonts-img/db.png) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    /*background-position: -196px -210px;*/
+    -webkit-background-size: 20px 20px;
+}
+
+.db_color {
+    background-color: #00b90b
+}
+
+.zh_login_logo {
+    background: url(../fonts-img/zh.png) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    /*background-position: -196px -210px;*/
+    -webkit-background-size: 20px 20px;
+}
+
+.zh_color {
+    background-color: #0c82e5;
+}
+
+.login_logo_container {
+    border-radius: 2px;
+    /*padding: 5px;*/
+    color: white;
+}
+
+.login_logo_container a {
+    color: white
+}
